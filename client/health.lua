@@ -73,6 +73,7 @@ function setHurt()
 	
 	RequestAnimSet("move_m@injured")
 	SetPedMovementClipset(playerYeet, "move_m@injured", true)
+	
 	-- Other elements
 	if Config.EnableAnimation then
 		SetPedMotionBlur(playerYeet, true)
@@ -86,6 +87,7 @@ function setHurtExtreme()
 	
 	RequestAnimSet("move_m@injured")
 	SetPedMovementClipset(playerYeet, "move_m@injured", true)
+	
 	-- Other elements
 	if Config.EnableAnimation then
 		SetPedMotionBlur(playerYeet, true)
@@ -101,7 +103,7 @@ function setNotHurt()
 	ResetPedMovementClipset(playerYeet)
 	ResetPedWeaponMovementClipset(playerYeet)
 	ResetPedStrafeClipset(playerYeet)
-	--print(" setnothurt ")
+
 	-- Other elements
 	if Config.EnableAnimation then
 		SetPedMotionBlur(playerYeet, false)
@@ -115,8 +117,8 @@ function StaminaMechanicsOn()
 	local playerYeet = GetPlayerPed(PlayerId())
 	
 	RestorePlayerStamina(playerYeet, Config.StaminaRatio)
+	
 	-- Other elements
-	--void SHAKE_CAM(Cam cam, char* type, float amplitude);
 	if Config.EnableAnimation then
 		if Config.ShakeEnabled then
 			ShakeCam(GetRenderingCam(), 'DRUNK_SHAKE', 0)
@@ -130,7 +132,6 @@ function StaminaMechanicsOff()
 	RestorePlayerStamina(playerYeet, Config.StaminaDefaultRatio)
 	
 	-- Other elements
-	--void SHAKE_CAM(Cam cam, char* type, float amplitude);
 	if Config.EnableAnimation then
 		if Config.ShakeEnabled then
 			ShakeCam(GetRenderingCam(), 'DRUNK_SHAKE', 1)
