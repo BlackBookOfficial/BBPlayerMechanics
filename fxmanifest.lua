@@ -1,10 +1,9 @@
-fx_version 'adamant'
-
-game 'gta5'
+fx_version 'cerulean'
+games { 'gta5' }
 
 description 'BlackBooks Player Movement Mechanics'
 
-version '1.0'
+version '1.1'
 
 client_scripts {
 	'config.lua',
