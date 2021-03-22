@@ -3,6 +3,7 @@ Simple script i put together to tackle down on majority of wanted functions.
 It requires you to have mythic_notify for notification popups.
 
 # What does it contain?
+- Disable car radio + hud
 - Handsup ( Key = X )
 - Crouch ( Key = Left CTRL )
 - Movement:
@@ -11,7 +12,6 @@ It requires you to have mythic_notify for notification popups.
   . Hurt movement
   . Camera effects
   . Pointing
- - Disable car radio + hud
 
 # Requirements:
 https://github.com/JayMontana36/mythic_notify
