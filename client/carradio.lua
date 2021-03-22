@@ -6,6 +6,7 @@ if Config.DistableRadio then
 		while true do
 			Citizen.Wait(0)
 			RadioStations()
+			HideHudComponentThisFrame(16)
 		end
 	end)
 end
@@ -64,7 +65,7 @@ function RadioStations()
 		"HIDDEN_RADIO_BIKER_PUNK",
 		"RADIO_24_DLC_BATTLE_MIX3_CLUB",
 		"DLC_BATTLE_MIX4_CLUB_PRIV",
-		"HIDDEN_RADIO_BIKER_HIP_HOP",
+		"HIDDEN_RADIO_BIKER_HIP_HOP"
 	}
 	
 	for a = 1, #list do
