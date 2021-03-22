@@ -23,9 +23,10 @@ Config.ShakeEnabled = true -- Enable shake effects
 -- Weapons/Ammo drops
 Config.DisableDrops = true -- This way you disable drops of ammo and weapons when player is dead...
 
--- Enable/Disable Radio ( Broken requires fixing )
+-- Enable/Disable Radio
 Config.DistableRadio = false -- Enabling/Disabling of car radios..
 
--- Enable/Disable crouch and handsup
+-- Enable/Disable crouch and handsup and pointing
 Config.EnableCrouch = true
 Config.EnableHandsup = true
+Config.EnablePointing = true
