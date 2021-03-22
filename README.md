@@ -10,6 +10,8 @@ It requires you to have mythic_notify for notification popups.
   . Stamina
   . Hurt movement
   . Camera effects
+  . Pointing
+ - Disable car radio + hud
 
 # Requirements:
 https://github.com/JayMontana36/mythic_notify
